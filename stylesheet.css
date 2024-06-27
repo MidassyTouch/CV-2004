@@ -1,0 +1,84 @@
+/* Reset some default browser styles */
+.profile-img {
+    border-radius: 50%;
+    height: 100px;
+    align-items: left
+    ;}
+
+
+html{padding-left: 5%;
+    padding-right: 40%;
+    border: right 30%; ;}
+body, h1, h2, h3, p, ul, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.card{
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    text-align: left;
+    align-content: flex-start;
+    padding-left: 0%;
+    padding-left: 15%;
+}
+
+.skills ul, .work-history ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.work-history div {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+.references p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+/* Flexbox for Small screen layout */
+@media (min-width: 768px) {
+    .summary, .skills, .education, .work-history, .references {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+   
+    .work-history div {
+        width: 100%;
+    }
+}
+ul{list-style-position: inside;} */
+/* flex *?
